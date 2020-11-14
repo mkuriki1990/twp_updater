@@ -100,7 +100,7 @@ print("月齢 %d" % moon_age)
 moon = moons[moon_num]
 
 # 表示名を設定
-nameStr = "村橋究理基%s%s" % (moon, timenow)
+nameStr = "村橋究理基%s北大%s" % (moon, timenow)
 profileStr = "名前の%sは今夜の月を表しています。仕組みの説明→https://t.co/ACE6OhPVVz 北海道大学理学院宇宙理学 博士3+2年 惑星気象/火星大気シミュレーション。3Dプリンタ/恵迪寮寮歌集アプリ開発/高校教諭 専修免許(理科)/学芸員/恵迪寮第300期寮長/(一社)恵迪寮同窓会理事/愛知県立津島高校出身" % moon
 
 api.update_profile(name = nameStr, description = profileStr)
