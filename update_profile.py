@@ -118,7 +118,7 @@ remain_days = target_days - days_from_birth
 # 表示名を設定
 nameStr = "村橋究理基%s北大@生誕%d日目%s" % (moon, days_from_birth, timenow)
 # profileStr = "名前の%sは今夜の月を表しています。仕組みの説明→https://t.co/ACE6OhPVVz 生誕11111日まで後%d日 北海道大学理学院宇宙理学 博士3+2年 惑星気象/火星大気シミュレーション。3Dプリンタ/恵迪寮寮歌集アプリ開発/高校教諭 専修免許(理科)/学芸員/恵迪寮第300期寮長/(一社)恵迪寮同窓会理事/愛知県立津島高校出身" % (moon, remain_days)
-profileStr = "名前の%sは今夜の月を表しています。仕組みの説明→https://t.co/mwX9eMCFY1 生誕%d日まで後%d日 北大理学院宇宙理学 博士3+2年 惑星気象/火星大気シミュレーション 3Dプリンタ/恵迪寮寮歌アプリ/高校専修免許(理科)/学芸員/恵迪寮第300期寮長/愛知県立津島高校出身" % (moon, target_days, remain_days)
+profileStr = "名前の%sは今夜の月を表しています。仕組みの説明→https://t.co/mwX9eMCFY1 生誕%d日まで後%d日 北大理学院宇宙理学 博士3+3年 惑星気象/火星大気シミュレーション 3Dプリンタ/恵迪寮寮歌アプリ/高校専修免許(理科)/学芸員/恵迪寮第300期寮長/愛知県立津島高校出身" % (moon, target_days, remain_days)
 
 api.update_profile(name = nameStr, description = profileStr)
 
